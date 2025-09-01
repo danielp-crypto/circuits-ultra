@@ -1,0 +1,63 @@
+﻿#pltFrms{
+	background-color: #000;
+	color: #ffffff;
+	padding: 8px;
+	display: inline-block;
+	position: relative;
+	font-size: 14px;
+	font-weight: 700;
+	letter-spacing: 1px;
+}
+#pltFrms:after {
+	content: '';
+	position: absolute;
+	right: -20px;
+	top: 0px;
+	width: 0;
+	height: 0;
+	border-left: 0px solid transparent;
+	border-right: 20px solid transparent;
+	border-top: 36px solid #000;
+	clear: both;
+}
+#founder{border-radius:50%;}
+.serviceBtn{background-color:inherit;color:white;border:1px solid #fff;
+    padding: 12px 50px;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    letter-spacing: 1.5px;
+    margin-top: 20px;
+    font-weight: 700;
+    font-size: 14}
+.serviceBtn:hover{background-color:black;color:white;}
+#contactBtn{background-color:inherit;color:black;border:1px solid #fff;
+    padding: 12px 50px;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    letter-spacing: 1.5px;
+    margin-top: 20px;
+    font-weight: 700;
+    font-size: 14
+}
+#contactBtn:hover{background-color:black;color:white;}
+.cid-s48MCQYojqs {
+  background-image: url("c:/Ultra/assets/images/people2.jpg");
+}
+.cid-s48MCQYojqs .mbr-section-title2 {
+  text-align: left;
+}
+.cid-s48MCQYojqs .mbr-text2,
+.cid-s48MCQYojqs .mbr-section-btn2 {
+  color: black;
+  text-align: center;
+}
+#unv{color:#ffffff;font-size:20px;}
+@media (max-width: 991px) {
+  .cid-s48MCQYojqs .mbr-section-title2,
+  .cid-s48MCQYojqs .mbr-section-btn2,
+  .cid-s48MCQYojqs .mbr-text2 {
+    text-align: center;
+  }
+}

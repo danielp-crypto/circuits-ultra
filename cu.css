@@ -1,0 +1,74 @@
+.container{position:relative;text-align:center;}
+.centered{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);}
+.cont{position:relative;text-align:right;}
+.c{position:relative;text-align:center;}
+.navbar{overflow:hidden;background-color:white;position:fixed;top:0;left:0;width:100%;opacity: 0.9; filter: alpha(opacity=60);border-radius:5px 5px;}
+.navbar a{color:#0E6EB6;text-decoration:none;padding:24px 16px;text-align:center;font-size:18px;font-family:calibri, consolas;float:left;display:;}
+.navbar a:hover{text-decoration:underline;}
+.navbar a:visited{color:grey;}
+.navbar a.active{color:black;text-decoration:none;font-weight:bold;}
+.navbar .icon {
+  display: none;
+}
+@media screen and (max-width: 600px) {
+  .navbar a:not(:first-child) {display: none;}
+  .navbar a.icon {
+    float: right;
+    display: block;
+  }
+}
+@media screen and (max-width: 600px) {
+  .navbar.responsive {position: relative;}
+  .navbar.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .navbar.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+.serviceBtn:visited{color:#0E6EB6;}
+.serviceBtn:hover{color:white;background-color:#0E6EB6;border:solid white;}
+.serviceBtn{font-size:3px;width:46%;}
+@keyframes schools { from { font-size:10%; } to { font-size:80%; } } .animate { animation-delay: 3s; animation-duration: 1s; animation-iteration-count: 1; animation-name: schools; }
+#reset:hover,#feedback-btn:hover{color:white;background-color:navy;border:solid black;}
+#founder{border-radius:50%;height:40%;float:center;width:17%;}
+.logo{float:left;width:;display: block;height: auto;}
+.foot{float:center;color:black;font-family:Arial , consolas;font-size:13px;}
+.main{margin-top:30px;}
+.button:hover{opacity: 0.3; filter: alpha(opacity=60);color:white;}
+.social-icon a:hover{ opacity: 0.6; filter: alpha(opacity=60); }
+#mainbackground{background-image: url('c:/ULTRA/Media/software dev.jpg');background-position:center;background-repeat: no-repeat;height:150px;width:auto;}
+#web-background{background-image: url('c:/ULTRA/Media/Website.png');background-position:center;background-repeat: no-repeat;height:40%;width:99%;}
+#secure-background{background-image: url('c:/ULTRA/Media/cover1.jpg');background-position:center;background-repeat: no-repeat;height:40%;width:99%; }
+#con-background{background-image: url('c:/ULTRA/Media/software dev.jpg');background-position:center;background-repeat: no-repeat;height:40%;width:99%; }
+#background{background-image: url('c:/ULTRA/Media/wallpaper.png');background-position:center;background-repeat: no-repeat;height:100%;width:100%;}
+@media screen and (max-width:600px){
+.navbar a{padding:4px 4px;font-size:13px;font-family:calibri,consolas;float:left;}
+.searchField{width:58%;height:;color:red;font-size:18px;border-radius:5px 5px;padding:8px 8px;}
+#reset,#feedback-btn{font-size:16px;width:20%;}
+.serviceBtn{font-size:13px;width:46%;}
+input[type=button]{font-size:15px;background-color:white;border:solid black;color:white;padding:10px 10px;text-decoration:none;margin:4px 2px;cursor:pointer;width:70%;height:50%;border-radius:;}
+#mobile-form {font-size:16px;width:60%;float:left;}
+.mobile-Btns{display: flex;  flex-direction: column; }
+#mapsBtn,#contactBtn,#visitWeb{width:85%;}
+#navbutton{width:18%;height:%;}
+.results-table{border:none;width:500px; box-sizing: border-box;}
+.select-mobi{width:300px;}
+#aps-buttons{width:48%;text-align:left;font-size:12px;padding:16px 1px;margin:4px 2px;word-wrap:break-word;float:left;}
+#NBT{width:48%;}
+#NSFAS{width:48%;}
+#founder{width:46%;height:46%;}
+#search,#searchBox,#search-btn{width:70%;}
+#got-it{width:20%;font-size:10px;}
+.logo{float:left;width:40%;height:auto;}
+.social-icon{float:left;width:1%;}
+#aps-para{text-align:center;}
+#aps-img{height:135px;}
+}
+
+
+
