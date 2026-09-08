@@ -1,3 +1,2 @@
 User-agent: *
-Allow: /
-Sitemap: https://www.circuitsultra.co.za/sitemap.xml
+Disallow: /cgi-bin
